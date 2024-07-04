@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Canada Betfo You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="header">
+        <div class="container">
+            <div class="top-header">
+                <div class="top-header-inner">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="serachbar">
+                        <input type="search" name="serach" id="serach" placeholder="Search...">
+                    </div>
+                    <div class="customer">
+                        <a href=""> info@canadabetforyou.com. </a>
+                    </div>
+                    <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header page-header">
+            <div class="container">
+                <div class="header_navigation">
+                    <div id="mySidenavs" class="sidenavs">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="menu_navigation">
+                            <li class=""><a href="index.html" class="menu">Home</a> </li>
+                            <li><a href="offer.html">Offer </a></li>
+                            <li><a href="hotels-with-casino.html">Hotels with Casino </a></li>
+                            <li><a href="unique-hotel.html">Unique Hotel </a></li>
+                            <li><a href="luxury-hotel.html">Luxury Hotel </a></li>
+                            <li><a href="budget-friendly.html">Budget-Friendly</a></li>
+                            <li><a href="contact-us.html">Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+
+    <section class="banner">
+        <div class="container">
+            <div class="bnr-text">
+                <div class="bnr-text">
+                    <h1>At Canada Bet For You, we are delighted to guide you through the finest hotel experiences Canada
+                        has to offer.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="seamless">
+        <div class="container">
+            <div class="seaml-wrapper">
+                <div class="seaml">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="delighted ">
+                                <img src="images/YLUMO_exterior_002.webp" alt="you">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="seaml-text">
+                                <p>At Canada Bet For You, we are delighted to guide you through the finest hotel
+                                    experiences
+                                    Canada has to offer. We are dedicated to providing you comprehensive and insightful
+                                    reviews, helping you make informed decisions for your next stay. From opulent luxury
+                                    hotels to vibrant casino hotels, from unique boutique stays to budget-friendly
+                                    options,
+                                    we cover it all with meticulous attention to detail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seaml second">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="seaml-text">
+                                <p>Our mission at Canada Bet For You is to ensure that every traveller finds their ideal
+                                    accommodation. Our team of experienced reviewers provides honest, thorough, and
+                                    up-to-date reviews, covering all aspects of your stay. From room quality and service
+                                    to amenities and dining, we leave no stone unturned in our quest to bring you the
+                                    best hotel recommendations.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="delighted ">
+                                <img src="images/Exterior.webp" alt="you">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="seaml">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="delighted ">
+                                <img src="images/entrance-to-great-canadian.jpg" alt="you">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="seaml-text">
+                                <p>Does not matter what you are up to can be a thrilling casino visit, a unique
+                                    adventure, or a budget-friendly trip, our detailed reviews are designed to help you
+                                    find the perfect hotel. Explore our site and discover the best that Canada has to
+                                    offer, tailored to your specific needs and preferences, we’ll take care of all your
+                                    trip details so you can focus on making amazing travel memories.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"> </script>
+    <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 150) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+
+    </script>
+</body>
+
+</html>

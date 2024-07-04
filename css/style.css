@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* top-header css*/
+.top-header .top-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.188rem 0;
+    gap: 30px;
+}
+
+.customer a {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #584528;
+}
+
+.customer a:hover {
+    color: #2B2E4A;
+}
+
+.serachbar input {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/*bottom header */
+.bottom-header {
+    background-color: #f8f7f1;
+    padding: 26px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ul.menu_navigation {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul.menu_navigation li a {
+    color: #584528;
+}
+
+ul.menu_navigation li a:hover {
+    color: #2B2E4A;
+}
+
+a.closebtn {
+    display: none;
+}
+
+span.toggle_menu {
+    display: none;
+}
+
+.logo img {
+    max-width: 300px;
+}
+
+.page-header {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 30px 0;
+    z-index: 1;
+    background-color: #f8f7f1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 999999;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.page-header.is-sticky {
+    position: fixed;
+    padding: 30px 0;
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.35s ease-out;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*  */
+section.banner {
+    background: url(../images/slide03.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnr-text h1 {
+    font-family: 'Great Vibes', Raleway, sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #FFF;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+/*  */
+section.seamless {
+    padding: 60px 0;
+    background-color: #f8f7f1;
+}
+
+.seaml .row {
+    align-items: center;
+}
+
+.seaml-text {
+    background: #fff;
+    padding: 58px;
+    margin: 2rem 0 0 -82px;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 9;
+    position: relative;
+}
+
+.seaml.second .seaml-text {
+    margin: 0 -82px 0 0;
+    z-index: 999;
+    position: relative;
+}
+
+.delighted {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.delighted img {
+    height: 100%;
+    border-radius: 6px;
+    animation: zoom 20s ease-in-out infinite;
+}
+
+@keyframes zoom {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+section.privacy {
+    background: #f8f7f1;
+    padding: 50px 0;
+}
+
+.privacy-inner h2 {
+    font-size: 50px;
+    font-family: "Archivo", sans-serif;
+    margin-bottom: 50px;
+}
+
+.privacy-inner p {
+    font-size: 18px;
+    color: #2e2e2b;
+    margin-bottom: 15px;
+}
+
+.privacy-inner h5 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #2e2e2b;
+    font-weight: 800;
+}
