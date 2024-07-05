@@ -262,6 +262,7 @@ section.ncludess {
     padding: 10px;
     border-radius: 6px;
     transition: all 0.4s ease-in 0s;
+    height: 100%;
 }
 
 .post-slide {
@@ -289,6 +290,20 @@ section.ensuring {
     background-color: #efeff5;
     padding: 60px 0;
 }
+
 .post-content {
     padding: 10px 10px;
+}
+
+.post-content h5 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Archivo", sans-serif;
+    margin-bottom: 10px;
+}
+
+.ensuring-was .row .col-lg-4.col-md-6 {
+    margin-bottom: 20px;
 }
