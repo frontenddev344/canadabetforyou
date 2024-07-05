@@ -231,3 +231,15 @@ section.privacy {
     color: #2e2e2b;
     font-weight: 800;
 }
+
+/* offer page css  */
+section.inner-bnr {
+    height: 400px;
+    background: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
