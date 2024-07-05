@@ -344,3 +344,9 @@ section.ensuring {
 .post-content p {
     margin-bottom: 10px;
 }
+
+section.inner-bnr.contact-us {
+    background: url(../images/contact-us.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}

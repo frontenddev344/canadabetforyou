@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="header">
+        <div class="container">
+            <div class="top-header">
+                <div class="top-header-inner">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="serachbar">
+                        <input type="search" name="serach" id="serach" placeholder="Search...">
+                    </div>
+                    <div class="customer">
+                        <a href=""> info@canadabetforyou.com. </a>
+                    </div>
+                    <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header page-header">
+            <div class="container">
+                <div class="header_navigation">
+                    <div id="mySidenavs" class="sidenavs">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="menu_navigation">
+                            <li class=""><a href="index.html" class="menu">Home</a> </li>
+                            <li><a href="offer.html">Offer </a></li>
+                            <li><a href="hotels-with-casino.html">Hotels with Casino </a></li>
+                            <li><a href="unique-hotel.html">Unique Hotel </a></li>
+                            <li><a href="luxury-hotel.html">Luxury Hotel </a></li>
+                            <li><a href="budget-friendly.html">Budget-Friendly</a></li>
+                            <li><a href="contact-us.html">Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+
+    <section class="inner-bnr contact-us">
+        <div class="container">
+            <div class="bnr-text">
+                <div class="bnr-text">
+                    <h2>Contact Us </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="assistance">
+        <div class="container">
+            <div class="assistance-wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>Get in Touch </h5>
+                        <h6>Email Us:</h6>
+                        <p>For any questions or support, please reach out to our customer service team at
+                            info@canadabetforyou.com. We aim to respond to all emails within 24 hours.
+                        </p>
+                        <h6>Call Us: </h6>
+                        <p>Our friendly support team is available from 9 AM to 5 PM (EST), Monday through Friday. </p>
+                        <h6>Connect with Us on Social Media </h6>
+                        <p>Stay updated with the latest hotel reviews, and exclusive offers by following us on social
+                            media. Join our community and share your experiences! <a href="#">Facebook</a>, <a
+                                href="#">Twitter</a>, <a href="#">Instagram</a>
+                        </p>
+                        <h6>Feedback and Suggestions
+                        </h6>
+                        <p>We value your opinions and are always looking to improve our services. If you have any
+                            suggestions or feedback, please don't hesitate to let us know. Your input helps us enhance
+                            our platform and serve you better.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"> </script>
+    <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 150) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+
+    </script>
+</body>
+
+</html>
