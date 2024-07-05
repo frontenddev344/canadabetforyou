@@ -247,9 +247,48 @@ section.inner-bnr {
 section.ncludess {
     padding: 60px 0;
 }
+
 .bnr-text {
     text-align: center;
 }
-.bnr-text h2{
+
+.bnr-text h2 {
     font-size: 46px;
+}
+
+.post-slide {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.4s ease-in 0s;
+}
+
+.post-slide {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.4s ease-in 0s;
+}
+
+.post-img {
+    height: 261px;
+}
+
+.post-img img {
+    height: 100%;
+    border-radius: 6px;
+}
+
+.post-img figure {
+    height: 100%;
+}
+
+section.ensuring {
+    background-color: #efeff5;
+    padding: 60px 0;
+}
+.post-content {
+    padding: 10px 10px;
 }
