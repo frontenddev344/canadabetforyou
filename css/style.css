@@ -235,13 +235,29 @@ section.privacy {
 /* offer page css  */
 section.inner-bnr {
     height: 400px;
-    background: rebeccapurple;
+    background: url(../images/Offer.avif)no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+section.inner-bnr::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    background: #00000045;
+    z-index: -1;
+}
+
+section.inner-bnr .bnr-text h2 {
+    color: #fff;
 }
 
 section.ncludess {
@@ -265,6 +281,11 @@ section.ncludess {
     height: 100%;
 }
 
+.post-slide:hover {
+    background: #fba01f;
+
+}
+
 .post-slide {
     background: #fff;
     margin: 10px;
@@ -284,6 +305,18 @@ section.ncludess {
 
 .post-img figure {
     height: 100%;
+}
+
+.post-slide:hover .post-content h5 {
+    color: #fff;
+}
+
+.post-slide:hover .post-content p {
+    color: #fff;
+}
+
+.post-slide:hover .post-content span {
+    color: #fff;
 }
 
 section.ensuring {
@@ -307,6 +340,7 @@ section.ensuring {
 .ensuring-was .row .col-lg-4.col-md-6 {
     margin-bottom: 20px;
 }
+
 .post-content p {
     margin-bottom: 10px;
 }
