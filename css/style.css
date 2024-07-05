@@ -243,3 +243,13 @@ section.inner-bnr {
     background-position: center;
     object-fit: cover;
 }
+
+section.ncludess {
+    padding: 60px 0;
+}
+.bnr-text {
+    text-align: center;
+}
+.bnr-text h2{
+    font-size: 46px;
+}
