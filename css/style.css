@@ -374,3 +374,10 @@ section.assistance {
     margin-bottom: 20px;
     font-weight: 500;
 }
+
+/*  */
+section.inner-bnr.hotels-with-casino {
+    background: url(../images/hotel-with-casino.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
