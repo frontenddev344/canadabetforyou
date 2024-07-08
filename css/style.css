@@ -345,8 +345,32 @@ section.ensuring {
     margin-bottom: 10px;
 }
 
+/*  */
 section.inner-bnr.contact-us {
     background: url(../images/contact-us.png)no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+section.assistance {
+    padding: 60px 0;
+}
+
+.assistance-wrapper h5 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.assistance-wrapper h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.assistance-wrapper p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
