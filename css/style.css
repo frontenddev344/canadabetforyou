@@ -398,7 +398,11 @@ section.inner-bnr.hotels-with-casino {
     background-size: cover;
     background-position: center;
 }
-
+section.inner-bnr.unique-hotel{
+    background: url(../images/Unique-Hotel.webp)no-repeat;
+    background-size: cover;
+    background-position: top;
+}
 .seaml {
     margin-bottom: 30px;
 }
