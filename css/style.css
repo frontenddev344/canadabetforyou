@@ -167,7 +167,7 @@ section.seamless {
 .seaml-text {
     background: #fff;
     padding: 58px;
-    margin: 2rem 0 0 -82px;
+    margin: 0rem 0 0 -82px;
     border-radius: 6px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     z-index: 9;
@@ -189,10 +189,10 @@ section.seamless {
 .delighted img {
     height: 100%;
     border-radius: 6px;
-    animation: zoom 20s ease-in-out infinite;
+    /* animation: zoom 20s ease-in-out infinite; */
 }
 
-@keyframes zoom {
+/* @keyframes zoom {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -207,7 +207,7 @@ section.seamless {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-}
+} */
 
 section.privacy {
     background: #f8f7f1;
@@ -330,8 +330,8 @@ section.ensuring {
 }
 
 .post-content h5 {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 30px;
     color: #222222;
     font-weight: 600;
     font-family: "Archivo", sans-serif;
@@ -344,6 +344,11 @@ section.ensuring {
 
 .post-content p {
     margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.post-content span {
+    font-size: 18px;
 }
 
 /*  */
@@ -383,10 +388,41 @@ section.inner-bnr.hotels-with-casino {
     background-position: center;
 }
 
+.seaml {
+    margin-bottom: 30px;
+}
+
 .seaml-text h5 {
     margin-bottom: 1rem;
     font-size: 1.75rem;
     line-height: 1.875rem;
     font-family: "Archivo", sans-serif;
     color: #2e2e2b;
+}
+
+.seaml-text p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.includes p {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.seaml-text span {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.read_more a {
+    background-color: #deb666;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
 }
