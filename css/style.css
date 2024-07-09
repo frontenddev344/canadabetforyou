@@ -369,7 +369,11 @@ section.inner-bnr.contact-us {
     background-position: center;
 }
 
-
+section.inner-bnr.luxury-hotel{
+    background: url(../images/Luxury-Hotel.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 section.assistance {
     padding: 60px 0;
 }
