@@ -82,11 +82,15 @@ ul.menu_navigation {
 }
 
 ul.menu_navigation li a {
-    color: #584528;
+    color: #000;
+}
+
+ul.menu_navigation li a.active-menu {
+    color: #deb666;
 }
 
 ul.menu_navigation li a:hover {
-    color: #2B2E4A;
+    color: #deb666;
 }
 
 a.closebtn {
@@ -425,4 +429,12 @@ section.inner-bnr.hotels-with-casino {
     color: #fff;
     font-size: 18px;
     border-radius: 2px;
+    border: 1px solid #deb666;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.read_more a:hover {
+    color: #deb666;
+    background-color: transparent;
 }
