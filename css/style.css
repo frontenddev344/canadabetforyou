@@ -37,6 +37,7 @@ h4,
 h5,
 h6 {
     margin: 0;
+    font-family: "Archivo", sans-serif;
 }
 
 /* top-header css*/
@@ -380,4 +381,12 @@ section.inner-bnr.hotels-with-casino {
     background: url(../images/hotel-with-casino.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.seaml-text h5 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
+    font-family: "Archivo", sans-serif;
+    color: #2e2e2b;
 }
