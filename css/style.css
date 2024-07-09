@@ -306,10 +306,17 @@ section.ncludess {
 .post-img img {
     height: 100%;
     border-radius: 6px;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.post-img img:hover {
+    transform: translate3d(3%, 0, 0) scale(1.06);
 }
 
 .post-img figure {
     height: 100%;
+    overflow: hidden;
+    border-radius: 6px;
 }
 
 .post-slide:hover .post-content h5 {
