@@ -558,7 +558,6 @@ p.copyright-text a {
 
 #cookie-popup {
     position: fixed;
-    z-index: 9999;
     right: 30px;
     bottom: 30px;
     width: 330px;
@@ -568,13 +567,14 @@ p.copyright-text a {
     background: #fff;
     color: #000;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 9999999;
 }
 
 #cookie-popup p:first-child {
     margin: 0;
     color: #eee;
     font-weight: 900;
-    color: #000000;
+    color: #deb666;
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -597,6 +597,7 @@ p.copyright-text a {
     border: 1px solid #deb666;
     color: #fff;
     background-color: #deb666;
+    transition: all 0.5s linear;
 
 
 }
@@ -606,3 +607,4 @@ p.copyright-text a {
     color: #fff;
     border: 1px solid transparent;
 }
+
