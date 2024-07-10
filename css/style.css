@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -8,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -51,13 +52,12 @@ h6 {
 
 .customer a {
     text-align: center;
-    font-family: "Lato", sans-serif;
     font-size: 16px;
     color: #584528;
 }
 
 .customer a:hover {
-    color: #2B2E4A;
+    color: #deb666;
 }
 
 .serachbar input {
@@ -355,11 +355,11 @@ section.ensuring {
 
 .post-content p {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .post-content span {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*  */
@@ -420,19 +420,19 @@ section.inner-bnr.unique-hotel{
 }
 
 .seaml-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
     font-weight: 500;
 }
 
 .includes p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 36px;
     font-weight: 500;
 }
 
 .seaml-text span {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
     display: block;
 }
@@ -442,7 +442,7 @@ section.inner-bnr.unique-hotel{
     padding: 10px 30px;
     display: inline-block;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 2px;
     border: 1px solid #deb666;
     transition: all 0.3s ease-in-out;
