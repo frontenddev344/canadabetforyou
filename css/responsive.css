@@ -31,6 +31,7 @@
     span.toggle_menu {
         display: block !important;
         font-size: 24px;
+        color: #c19d68;
     }
 
     .top-header .top-header-inner {
@@ -64,5 +65,27 @@
 
     .bottom-header.page-header.is-sticky {
         position: static;
+    }
+
+    .seaml.second .seaml-text {
+        margin: 0 0px 0 0;
+
+    }
+
+    .seaml-text {
+        margin: 0rem 0 0 0px;
+    }
+
+    .seaml.second .row {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media(max-width:575px) {
+    .delighted {
+        height: 300px;
+        overflow: hidden;
+        border-radius: 6px;
     }
 }
