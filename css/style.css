@@ -369,11 +369,12 @@ section.inner-bnr.contact-us {
     background-position: center;
 }
 
-section.inner-bnr.luxury-hotel{
+section.inner-bnr.luxury-hotel {
     background: url(../images/Luxury-Hotel.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.assistance {
     padding: 60px 0;
 }
@@ -402,11 +403,13 @@ section.inner-bnr.hotels-with-casino {
     background-size: cover;
     background-position: center;
 }
-section.inner-bnr.unique-hotel{
+
+section.inner-bnr.unique-hotel {
     background: url(../images/Unique-Hotel.webp)no-repeat;
     background-size: cover;
     background-position: top;
 }
+
 .seaml {
     margin-bottom: 30px;
 }
@@ -452,4 +455,80 @@ section.inner-bnr.unique-hotel{
 .read_more a:hover {
     color: #deb666;
     background-color: transparent;
+}
+
+/* Footer css start from here */
+footer.footer {
+    /* background: url(../images/footer-bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    background-color: #1E1E1E;
+}
+
+.footer-widget h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.39px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.footer-logo img {
+    max-width: 350px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.inner-f {
+    margin-top: 32px;
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    border-color: #9EA89F;
+    padding: 32px 0 78px;
+}
+ul.list-unstyled.open-hours li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+    color: #F1F1F1;
+    width: 35%;
+}
+.footer-widget.menu ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+    color: #F1F1F1;
+    transition: all 0.3s linear;
+}
+.footer-widget.social a {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 20px 0 0;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+.footer-widget p a {
+    color: #fff;
+}
+p.copyright-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+    padding: 32px 0;
+    color: #F1F1F1;
+}
+p.copyright-text a {
+    color: #deb666;
 }
