@@ -208,7 +208,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"> </script>
-    <script>
+    <!-- <script>
         const header = document.querySelector(".page-header");
         const toggleClass = "is-sticky";
 
@@ -221,11 +221,38 @@
             }
         });
 
+    </script> -->
+    <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+    
+        function handleScroll() {
+            const currentScroll = window.pageYOffset;
+            const isMobile = window.innerWidth <= 992; // Define mobile as width <= 768px
+    
+            if (isMobile && currentScroll > 99) {
+                header.classList.remove(toggleClass);
+            } else if (!isMobile && currentScroll > 150) {
+                header.classList.add(toggleClass);
+            } else if (currentScroll <= 150) {
+                header.classList.remove(toggleClass);
+            }
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        // Run the function when the page loads to set the initial state
+        window.addEventListener("load", handleScroll);
+    
+        // Run the function when the window is resized to handle dynamic changes
+        window.addEventListener("resize", handleScroll);
     </script>
-    <script>$("#cookie-popup button").click(function () {
-            $("#cookie-popup").fadeOut();
-        });
-    </script>
+    
+<script>
+$("#cookie-popup button").click(function () {
+$("#cookie-popup").fadeOut();
+});
+</script>
 </body>
 
 </html>
