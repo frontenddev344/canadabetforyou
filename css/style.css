@@ -403,6 +403,11 @@ section.inner-bnr.unique-hotel {
     background-size: cover;
     background-position: top;
 }
+section.inner-bnr.budget-friendly{
+    background: url(../images/Budge-Friendly.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .seaml {
     margin-bottom: 30px;
