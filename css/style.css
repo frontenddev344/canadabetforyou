@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -133,6 +136,7 @@ span.toggle_menu {
     backdrop-filter: blur(10px);
     animation: slideDown 0.35s ease-out;
     background: #fff;
+    z-index: 999999;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -210,15 +214,19 @@ section.privacy {
 }
 
 .privacy-inner h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Archivo", sans-serif;
     margin-bottom: 50px;
 }
 
 .privacy-inner p {
-    font-size: 18px;
+    font-size: 16px;
     color: #2e2e2b;
     margin-bottom: 15px;
+}
+
+.privacy-inner p a {
+    color: #deb666;
 }
 
 .privacy-inner h5 {
@@ -387,7 +395,8 @@ section.assistance {
     margin-bottom: 20px;
     font-weight: 500;
 }
-.assistance-wrapper p a{
+
+.assistance-wrapper p a {
     color: #deb666;
 }
 
@@ -403,7 +412,8 @@ section.inner-bnr.unique-hotel {
     background-size: cover;
     background-position: top;
 }
-section.inner-bnr.budget-friendly{
+
+section.inner-bnr.budget-friendly {
     background: url(../images/Budge-Friendly.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -513,12 +523,20 @@ ul.list-unstyled.open-hours li {
     transition: all 0.3s linear;
 }
 
+.footer-widget.menu ul li a:hover {
+    color: #deb666;
+}
+
 .footer-widget.social a {
     font-size: 20px;
     color: #fff;
     margin: 0 20px 0 0;
     display: inline-block;
     transition: all 0.3s linear;
+}
+
+.footer-widget.social a:hover {
+    color: #deb666;
 }
 
 .footer-widget p a {
@@ -536,4 +554,55 @@ p.copyright-text {
 
 p.copyright-text a {
     color: #deb666;
+}
+
+#cookie-popup {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    width: 330px;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#cookie-popup p:first-child {
+    margin: 0;
+    color: #eee;
+    font-weight: 900;
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#cookie-popup p:nth-child(2) {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+
+}
+
+
+
+#cookie-popup button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0;
+    border: 1px solid #deb666;
+    color: #fff;
+    background-color: #deb666;
+
+
+}
+
+#cookie-popup button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
 }

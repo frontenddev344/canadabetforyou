@@ -22,10 +22,10 @@
 
     a.closebtn {
         display: block !important;
-        font-size: 24px;
+        font-size: 30px;
         text-align: right;
         padding: 9px;
-        color: #000;
+        color: #c09d68;
     }
 
     span.toggle_menu {
@@ -80,6 +80,24 @@
         flex-direction: column-reverse;
     }
 
+    section.banner {
+        height: auto;
+    }
+
+    .bnr-text h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width:767px) {
+    footer.footer {
+        text-align: center;
+    }
+
+    .footer-widget.menu {
+        margin-top: 30px;
+    }
 }
 
 @media(max-width:575px) {

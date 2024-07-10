@@ -194,9 +194,18 @@
     </footer>
 
 
+    <div id="cookie-popup">
+        <p>Cookies </p>
+        <p>At Canadabetforyou.com, we are committed to providing a transparent and user-friendly experience. As part of
+            this commitment, we want to inform you about how we use cookies on our site. If you would like to know more
+            about our Cookie Policy please visit our Privacy Policy where we explain what, how we use them, and how you
+            can manage your cookie preferences. </p>
+        <button class="cookie-popup__button">Ok</button>
+    </div>
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"> </script>
     <script>
@@ -212,6 +221,10 @@
             }
         });
 
+    </script>
+    <script>$("#cookie-popup button").click(function () {
+            $("#cookie-popup").fadeOut();
+        });
     </script>
 </body>
 
