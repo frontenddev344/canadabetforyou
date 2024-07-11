@@ -139,16 +139,16 @@
                     <li>Search engines;</li>
                     <li>News organizations; </li>
                     <li>Online directory distributors may link to our Website in the same manner as they hyperlink to
-                        the Websites of other listed businesses; and </li>
+                        the Websites of other listed businesses; </li>
                     <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping
                         malls, and charity fundraising groups which may not hyperlink to our Web site. </li>
                 </ul>
                 <p>These organizations may link to our home page, to publications or to other Website information so
                     long as the link:</p>
                 <p>(a) is not in any way deceptive; </p>
-                <p>does not falsely imply sponsorship, endorsement or approval of the linking party and its products
+                <p>(b)does not falsely imply sponsorship, endorsement or approval of the linking party and its products
                     and/or services; </p>
-                <p>fits within the context of the linking party's site.
+                <p> (c)fits within the context of the linking party's site.
                 </p>
                 <p>We may consider and approve other link requests from the following types of organizations:
                 </p>
@@ -182,9 +182,9 @@
                 <p>Approved organizations may hyperlink to our Website as follows:
                 </p>
                 <ul>
-                    <li>By use of our corporate name; or
+                    <li>By use of our corporate name;
                     </li>
-                    <li>By use of the uniform resource locator being linked to; or
+                    <li>By use of the uniform resource locator being linked to; 
                     </li>
                     <li> By use of any other description of our Website being linked to that makes sense within the
                         context and format of content on the linking party's site.
@@ -317,11 +317,11 @@
     <script>
         const header = document.querySelector(".page-header");
         const toggleClass = "is-sticky";
-    
+
         function handleScroll() {
             const currentScroll = window.pageYOffset;
             const isMobile = window.innerWidth <= 992; // Define mobile as width <= 768px
-    
+
             if (isMobile && currentScroll > 99) {
                 header.classList.remove(toggleClass);
             } else if (!isMobile && currentScroll > 150) {
@@ -330,12 +330,12 @@
                 header.classList.remove(toggleClass);
             }
         }
-    
+
         window.addEventListener("scroll", handleScroll);
-    
+
         // Run the function when the page loads to set the initial state
         window.addEventListener("load", handleScroll);
-    
+
         // Run the function when the window is resized to handle dynamic changes
         window.addEventListener("resize", handleScroll);
     </script>

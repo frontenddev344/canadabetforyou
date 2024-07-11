@@ -94,6 +94,11 @@
     .is-sticky {
         position: static;
     }
+
+    .seaml-text {
+        padding: 30px;
+
+    }
 }
 
 @media(max-width:767px) {
@@ -111,5 +116,23 @@
         height: 300px;
         overflow: hidden;
         border-radius: 6px;
+    }
+    .seaml-text h5 {
+        font-size: 24PX;
+  
+    }
+}
+
+@media(max-width:424px) {
+    .logo img {
+        max-width: 250px;
+    }
+
+    .footer-logo img {
+        max-width: 250px;
+    }
+
+    .footer-widget h5 {
+        font-size: 20px;
     }
 }

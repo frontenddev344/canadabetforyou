@@ -235,6 +235,22 @@ section.privacy {
     color: #2e2e2b;
     font-weight: 800;
 }
+.privacy-inner ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.privacy-inner ul li::before {
+    position: absolute;
+    content: "";
+    background: #deb666;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}
+
 
 /* offer page css  */
 section.inner-bnr {
@@ -285,10 +301,7 @@ section.ncludess {
     height: 100%;
 }
 
-.post-slide:hover {
-    background: #fba01f;
 
-}
 
 .post-slide {
     background: #fff;
@@ -318,17 +331,7 @@ section.ncludess {
     border-radius: 6px;
 }
 
-.post-slide:hover .post-content h5 {
-    color: #fff;
-}
 
-.post-slide:hover .post-content p {
-    color: #fff;
-}
-
-.post-slide:hover .post-content span {
-    color: #fff;
-}
 
 section.ensuring {
     background-color: #efeff5;
@@ -375,7 +378,7 @@ section.inner-bnr.luxury-hotel {
 }
 
 section.assistance {
-    padding: 60px 0;
+    padding: 0 0 60px 0;
 }
 
 .assistance-wrapper h5 {
@@ -439,7 +442,7 @@ section.inner-bnr.budget-friendly {
 
 .includes p {
     font-size: 16px;
-    line-height: 36px;
+    line-height: 30px;
     font-weight: 500;
 }
 
@@ -528,7 +531,7 @@ ul.list-unstyled.open-hours li {
 }
 
 .footer-widget.social a {
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     margin: 0 20px 0 0;
     display: inline-block;
@@ -607,4 +610,3 @@ p.copyright-text a {
     color: #fff;
     border: 1px solid transparent;
 }
-

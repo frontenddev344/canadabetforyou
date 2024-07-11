@@ -64,7 +64,16 @@
             </div>
         </div>
     </section>
-
+    <section class="ncludess">
+        <div class="container">
+            <div class="includes">
+                <p>We love hearing from you! Your feedback, questions, and suggestions are important to us as we strive
+                    to provide the best hotel review and comparison service in Canada. If you have inquiries about our
+                    site, need assistance, or want to share your experience, we are here to help.
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="assistance">
         <div class="container">
             <div class="assistance-wrapper">
@@ -73,7 +82,8 @@
                         <h5>Get in Touch </h5>
                         <h6>Email Us:</h6>
                         <p>For any questions or support, please reach out to our customer service team at
-                            info@canadabetforyou.com. We aim to respond to all emails within 24 hours.
+                            <a href="mailto:info@canadabetforyou.com.">info@canadabetforyou.com.</a> We aim to respond
+                            to all emails within 24 hours.
                         </p>
                         <h6>Call Us: </h6>
                         <p>Our friendly support team is available from 9 AM to 5 PM (EST), Monday through Friday. </p>
@@ -98,7 +108,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer class="footer">
         <div class="footer-logo">
             <a href="index.html">
@@ -171,11 +181,11 @@
     <script>
         const header = document.querySelector(".page-header");
         const toggleClass = "is-sticky";
-    
+
         function handleScroll() {
             const currentScroll = window.pageYOffset;
             const isMobile = window.innerWidth <= 992; // Define mobile as width <= 768px
-    
+
             if (isMobile && currentScroll > 99) {
                 header.classList.remove(toggleClass);
             } else if (!isMobile && currentScroll > 150) {
@@ -184,12 +194,12 @@
                 header.classList.remove(toggleClass);
             }
         }
-    
+
         window.addEventListener("scroll", handleScroll);
-    
+
         // Run the function when the page loads to set the initial state
         window.addEventListener("load", handleScroll);
-    
+
         // Run the function when the window is resized to handle dynamic changes
         window.addEventListener("resize", handleScroll);
     </script>
