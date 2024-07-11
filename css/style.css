@@ -272,7 +272,7 @@ section.inner-bnr::after {
     position: absolute;
     inset: 0;
     height: 100%;
-    background: #00000045;
+    background: #00000024;
     z-index: -1;
 }
 
