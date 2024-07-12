@@ -413,7 +413,7 @@ section.inner-bnr.hotels-with-casino {
 section.inner-bnr.unique-hotel {
     background: url(../images/Unique-Hotel.webp)no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 section.inner-bnr.budget-friendly {
