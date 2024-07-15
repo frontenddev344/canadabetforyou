@@ -235,11 +235,13 @@ section.privacy {
     color: #2e2e2b;
     font-weight: 800;
 }
+
 .privacy-inner ul li {
     position: relative;
     padding-left: 20px;
     padding-bottom: 15px;
 }
+
 .privacy-inner ul li::before {
     position: absolute;
     content: "";
@@ -609,4 +611,16 @@ p.copyright-text a {
     background-color: #000;
     color: #fff;
     border: 1px solid transparent;
+}
+
+span.serach-icon {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+.serachbar {
+    position: relative;
 }

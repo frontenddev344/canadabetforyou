@@ -25,6 +25,8 @@
                     </div>
                     <div class="serachbar">
                         <input type="search" name="serach" id="serach" placeholder="Search...">
+                        <span class="serach-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+
                     </div>
                     <div class="customer">
                         <a href="mailto:info@canadabetforyou.com."> info@canadabetforyou.com. </a>
@@ -163,7 +165,7 @@
                             <h5>Opening Hours</h5>
                             <ul class="list-unstyled open-hours">
                                 <li>Mon - Fri</li>
-                                <li> 07:00 - 23:00</li>
+                                <li> 09:00 - 5:00</li>
                                 <li>Saturday</li>
                                 <li>Closed</li>
                                 <li>Sunday</li>
@@ -217,11 +219,11 @@
     <script>
         const header = document.querySelector(".page-header");
         const toggleClass = "is-sticky";
-    
+
         function handleScroll() {
             const currentScroll = window.pageYOffset;
             const isMobile = window.innerWidth <= 992; // Define mobile as width <= 768px
-    
+
             if (isMobile && currentScroll > 99) {
                 header.classList.remove(toggleClass);
             } else if (!isMobile && currentScroll > 150) {
@@ -230,12 +232,12 @@
                 header.classList.remove(toggleClass);
             }
         }
-    
+
         window.addEventListener("scroll", handleScroll);
-    
+
         // Run the function when the page loads to set the initial state
         window.addEventListener("load", handleScroll);
-    
+
         // Run the function when the window is resized to handle dynamic changes
         window.addEventListener("resize", handleScroll);
     </script>
