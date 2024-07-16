@@ -624,3 +624,7 @@ span.serach-icon {
 .serachbar {
     position: relative;
 }
+
+section.inner-bnr .bnr-text h1 {
+   font-family: inherit;
+}
